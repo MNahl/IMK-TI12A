@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView" android:background="@drawable/profilu_19"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="167dp" android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" android:id="@+id/linearLayout">
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Timnas Indonesia u19"
+                    android:id="@+id/buttonu19" style="@android:style/ButtonBar"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Previous"
+                    android:id="@+id/buttonprev_pp19" style="@android:style/ButtonBar"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Next"
+                    android:id="@+id/buttonnext_pp19" style="@android:style/ButtonBar"/>
+        </LinearLayout>
+        <ImageView
+                android:layout_width="128dp"
+                android:layout_height="171dp"
+                android:id="@+id/imageView2" android:background="@drawable/evan"
+                android:layout_marginBottom="55dp"
+                android:layout_above="@+id/linearLayout" android:layout_alignParentStart="true"
+                android:layout_marginLeft="19dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="103dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="TIMNAS INDONESIA"
+                android:id="@+id/textView"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="U-19"
+                android:id="@+id/textView2" android:layout_below="@+id/textView"
+                android:layout_alignParentStart="true"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Profile Pemain"
+                android:id="@+id/textView3" android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" android:textColor="#000000"/>
+    </RelativeLayout>
+    <RelativeLayout
+            android:layout_width="215dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentEnd="true" android:layout_above="@+id/linearLayout"
+            android:layout_gravity="right|center_vertical">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="NAMA   :  EVAN DIMAS D"
+                android:id="@+id/textView4"
+                android:textColor="#000000"
+                android:layout_above="@+id/textView5" android:layout_alignParentStart="true"
+                android:layout_marginBottom="25dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="TTL        : SURAYABAYA"
+                android:id="@+id/textView5"
+                android:textColor="#000000"
+                android:layout_above="@+id/textView6" android:layout_alignParentStart="true"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="13-MARET-1995"
+                android:id="@+id/textView6"
+                android:textColor="#000000"
+                android:layout_above="@+id/textView7" android:layout_alignEnd="@+id/textView4"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="POSISI  :  MIDFIELDER"
+                android:id="@+id/textView7"
+                android:textColor="#000000" android:password="false"
+                android:layout_above="@+id/textView8" android:layout_alignEnd="@+id/textView8"
+                android:layout_marginBottom="26dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="CLUB     :  PERSEBAYA"
+                android:id="@+id/textView8"
+                android:textColor="#000000"
+                android:layout_centerVertical="true" android:layout_alignParentStart="true"/>
+    </RelativeLayout>
+</FrameLayout>

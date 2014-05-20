@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:background="@drawable/berita">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="arsitek asal brasil itu menganggap duel melawan persiram bukan sebagai laga derby papua"
+                android:id="@+id/textView"
+                android:textColor="#000000"
+                android:layout_marginBottom="140dp"
+                android:layout_alignParentBottom="true" android:layout_alignParentStart="true"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:id="@+id/buttonhome"
+                android:layout_above="@+id/button3" android:layout_alignParentStart="true"
+                android:layout_alignEnd="@+id/button2" android:textColor="#000000"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="baca selengkapnya"
+                android:id="@+id/button2"
+                android:textColor="#000000"
+                android:layout_above="@+id/buttonhome" android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="berita lainnya"
+                android:id="@+id/button3"
+                android:layout_alignParentBottom="true" android:layout_alignParentStart="true"
+                android:layout_alignEnd="@+id/buttonhome" android:textColor="#000000"/>
+    </RelativeLayout>
+</FrameLayout>

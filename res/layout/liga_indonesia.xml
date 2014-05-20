@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView" android:background="@drawable/home_isl"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JADWAL LIGA INDONESIA"
+                android:id="@+id/buttonjli" android:textColor="#000000"
+                android:layout_alignParentStart="true" android:textStyle="bold" android:layout_alignParentEnd="true"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HASIL PERTANDINGAN"
+                android:id="@+id/buttonhp"
+                android:layout_below="@+id/buttonjli" android:layout_alignParentStart="true" android:textColor="#000000"
+                android:textStyle="bold" android:layout_alignParentEnd="true"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KLASEMEN LIGA INDONESIA"
+                android:id="@+id/buttonkli" android:layout_below="@+id/buttonhp" android:layout_alignParentStart="true"
+                android:textColor="#000000" android:textStyle="bold" android:layout_alignParentEnd="true"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HOME"
+                android:id="@+id/buttonhome"
+                android:textColor="#000000" android:textStyle="bold" android:layout_below="@+id/buttonkli"
+                android:layout_alignParentEnd="true"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KELUAR"
+                android:id="@+id/buttonkeluar"
+                android:textColor="#000000" android:textStyle="bold"
+                android:layout_marginLeft="63dp"
+                android:layout_alignParentBottom="true" android:layout_alignParentStart="true"/>
+    </RelativeLayout>
+</FrameLayout>

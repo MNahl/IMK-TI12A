@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView" android:background="@drawable/strukturorganisasi"/>
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEJARAH"
+                android:id="@+id/buttonsejarah"
+                android:layout_marginBottom="54dp"
+                android:layout_marginLeft="28dp"
+                android:layout_alignParentBottom="true" android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/buttondketua"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DAFTAR KETUA"
+                android:id="@+id/buttondketua"
+                android:layout_marginRight="23dp" android:layout_alignTop="@+id/buttonsejarah"
+                android:layout_alignParentEnd="true"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PSSI"
+                android:id="@+id/buttonpssi" android:layout_below="@+id/buttondketua" android:layout_alignStart="@+id/buttonsejarah"
+                android:layout_toLeftOf="@+id/buttondketua" android:textColor="#000000"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HOME"
+                android:id="@+id/buttonhome" android:layout_below="@+id/buttondketua" android:layout_toRightOf="@+id/buttonsejarah"
+                android:layout_alignEnd="@+id/buttondketua" android:textColor="#000000"/>
+    </RelativeLayout>
+</FrameLayout>

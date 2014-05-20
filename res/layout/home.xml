@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView" android:background="@drawable/HOME_APP"/>
+    </RelativeLayout>
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PSSI"
+                android:id="@+id/buttonpssi" android:layout_alignParentTop="true" android:layout_alignParentEnd="true"
+                style="@android:style/ButtonBar" android:layout_alignParentStart="true" android:textColor="#000000"
+                android:textStyle="bold"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TIMNAS INDONESIA"
+                android:id="@+id/buttontimnas"
+                style="@android:style/ButtonBar"
+                android:textStyle="bold" android:textColor="#000000" android:layout_below="@+id/buttonpssi"
+                android:layout_alignParentStart="true" android:layout_alignParentEnd="true"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LIGA INDONESIA"
+                android:id="@id/buttonli"
+                style="@android:style/ButtonBar"
+                android:textStyle="bold" android:textColor="#000000" android:layout_below="@+id/buttontimnas"
+                android:layout_alignParentStart="true" android:layout_alignParentEnd="true"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KELUAR"
+                android:id="@+id/buttonkeluar"
+                style="@android:style/ButtonBar"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_below="@+id/buttonberita" android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BERITA"
+                android:id="@+id/buttonberita" android:layout_below="@id/buttonli" android:layout_alignParentStart="true"
+                style="@android:style/ButtonBar" android:layout_alignParentEnd="true" android:textColor="#000000"
+                android:textStyle="bold"/>
+    </RelativeLayout>
+</FrameLayout>

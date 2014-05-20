@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView" android:background="@drawable/home_timnas"/>
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+    </RelativeLayout>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:text="TIMNAS INDONESIA U-23"
+            android:id="@+id/buttonu23" android:layout_gravity="left|center_vertical" android:textStyle="bold"
+            android:textColor="#000000"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="167dp"
+            android:text="TIMNAS INDONESIA"
+            android:id="@+id/buttontimindo" android:layout_gravity="left|top" android:textStyle="bold"
+            android:textColor="#000000"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="152dp"
+            android:text="TIMNAS INDONESIA U-19"
+            android:id="@+id/buttonu19" android:layout_gravity="left|bottom" android:singleLine="false"
+            android:textStyle="bold" android:textColor="#000000"/>
+</FrameLayout>

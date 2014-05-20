@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_gravity="center_horizontal|top">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:weightSum="1">
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SEJARAH"
+                    android:id="@+id/buttonsejarah"/>
+            <Button
+                    android:layout_width="154dp"
+                    android:layout_height="69dp"
+                    android:text="STRUKTUR ORGANISASI"
+                    android:id="@+id/buttonso" android:layout_weight="1.05"/>
+            <Button
+                    android:layout_width="107dp"
+                    android:layout_height="wrap_content"
+                    android:text="KETUA"
+                    android:id="@+id/buttonketua"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView" android:background="@drawable/home_pssi"
+                android:layout_alignParentBottom="true" android:layout_alignParentStart="true"/>
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KELUAR"
+                android:id="@+id/button4" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true"
+                android:textColor="#000000" android:textStyle="bold"/>
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HOME"
+                android:id="@+id/buttonhome"
+                android:textColor="#000000" android:textStyle="bold"
+                android:layout_alignParentBottom="true" android:layout_alignParentStart="true"/>
+    </RelativeLayout>
+</FrameLayout>
